@@ -1,0 +1,618 @@
+﻿﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAW FRIENDS</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <a href="homepage.html" class="logo"><i class="fas fa-bone"></i>pawfriends</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#category">category</a>
+        <a href="#products">products</a>
+        <a href="#offer">offer</a>
+        <a href="#services">Services</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-icon"></i>
+      <a href="user.html" class="fas fa-user"></a>
+        <a href="cart.html" class="fas fa-shopping-cart"></a>
+    </div>
+    
+    <form action="" id="search-box">
+        <input type="search" id="search" placeholder="search here">
+        <label for="search" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <span>upto 50% off</span>
+        <h3>we care about <br> your pet!</h3>
+        <a href="#category" class="btn">get started</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- category section starts  -->
+
+<section class="category" id="category">
+
+    <h1 class="heading"> <i class="fas fa-paw"></i> shop by category <i class="fas fa-paw"></i> </h1>
+
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="images/c1.webp" alt="">
+            <h3>food for dogs</h3>
+            <button id="showButton1" class="btn" data-target="div1">Shop now</button>
+        </div>
+        <div class="box">
+            <img src="images/c2.webp" alt="">
+            <h3>food for cats</h3>
+            <button id="showButton2" class="btn" data-target="div2">Shop now</button>
+        </div>
+
+        <div class="box">
+            <img src="images/c3.webp" alt="">
+            <h3>food for rabbits</h3>
+            <button id="showButton3" class="btn" data-target="div3">Shop now</button>
+        </div>
+
+        <div class="box">
+            <img src="images/c4.webp" alt="">
+            <h3>food for birds</h3>
+            <button id="showButton4" class="btn" data-target="div4">Shop now</button>
+        </div>
+
+    </div>
+    <div id="div1" class="hiddenDiv">
+        <div class="container">
+        dog
+        <img src="image/dog.gif" alt="dog">
+        <div class="text">Maintaining your dog's health involves several key steps. Regular visits to the veterinarian are crucial for check-ups and vaccinations. Providing a balanced diet suited to your dog's needs, along with regular exercise, helps keep them in top shape. Additionally, grooming, dental care, and safety measures such as proper identification and a secure environment contribute to your dog's overall well-being.</div>
+    </div>
+    </div>
+
+    <div id="div2" class="hiddenDiv">
+        <div class="container">
+        cats.
+        <img src="image/cat.gif" alt="cat">
+        <div class="text">Cats require attentive care to thrive. Along with regular veterinary check-ups, ensure your cat's diet is appropriate and fresh water is always available. Keeping the litter box clean and providing enrichment through toys and interaction are essential for their mental and physical health. Spaying or neutering, dental care, and a safe indoor environment round out the basics of cat care.</div>
+        </div>
+    </div>
+
+    <div id="div3" class="hiddenDiv">
+        <div class="container">
+        rabbits.
+        <img src="image/rabbit.gif" alt="Rabbit">
+        <div class="text">Rabbits have specific needs for optimal health. A diet rich in hay, supplemented with fresh vegetables and limited pellets, supports their digestive health. Providing a spacious, safe enclosure with companionship and enrichment items keeps them happy. Regular veterinary check-ups, litter box training, and grooming, tailored to their breed, ensure rabbits live long, healthy lives.</div>
+    </div>
+
+    <div id="div4" class="hiddenDiv">
+        <div class="container">
+        birds.
+    <img src="image/bird.gif" alt="bird">
+    <div class="text">Bird care involves attention to diet, environment, and social interaction. Offering a varied diet of pellets, fresh foods, and clean water is crucial. Providing a safe, clean cage with plenty of toys and opportunities for mental stimulation helps prevent boredom. Regular vet check-ups and attention to wing clipping, if applicable, contribute to the health and well-being of pet birds.</div>
+    </div>
+</div>
+    <button onclick="showDivs()">Show Divs</button>
+    <h1 class="display-5 text-uppercase mb-0">Our Excellent Pet Care Services</h1>
+</div>
+<div class="row g-5">
+    <div class="col-md-6">
+        <div class="service-item bg-light d-flex p-4">
+            <i class="flaticon-house display-1 text-primary me-4"></i>
+            <div>
+                
+</section>
+
+<!-- category section ends -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <i class="fas fa-paw"></i> our featured products <i class="fas fa-paw"></i> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="price">₱300</div>
+            <img src="dog food-1.jpg" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Pedigree</h3>
+                <p>we prioritize your dog's health and happiness.</p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="price">₱500</div>
+            <img src="cat food-1.jpg - Shortcut.lnk" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Royal Canin</h3>
+                <p>Our collection includes a variety of options, from premium dry kibble to nourishing wet food, all crafted with your cat's well-being in mind.</p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- deal section starts  -->
+
+<section class="deal">
+
+    <span>upto 70% off</span>
+    <h3>tasty and healthy pets food</h3>
+    <a href="#" class="btn">see the deal now</a>
+
+</section>
+
+<!-- deal section ends -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> <i class="fas fa-paw"></i> our latest products <i class="fas fa-paw"></i> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="dog food-canine.jpg" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Canine Creek All Breed Dry Puppy Food</h3>
+                <div class="price"> ₱800 <span>1000</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="dog food-2.jpg" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>JerHigh Grilled Chicken In Gravy Adult</h3>
+                <div class="price"> ₱500 <span>700</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="cat food-2.jpg - Shortcut.lnk" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Royal Canin Mother & Baby Cat</h3>
+                <div class="price"> ₱400 <span>600</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="fishfood-3.jpg" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>tetramin flakes</h3>
+                <div class="price"> ₱150 <span>300</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="birdfood-1.jpg" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Mazuri Large bird Diet</h3>
+                <div class="price"> ₱200 <span>450</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="dog food-3.jpg" alt="">
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>JerHigh Chicken & Liver In Gravy Adult</h3>
+                <div class="price">₱250<span>500</span> </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- offer section starts  -->
+
+<section class="offer" id="offer">
+
+    <h1 class="heading"> <i class="fas fa-paw"></i> our latest offer <i class="fas fa-paw"></i> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/offer-img1.webp" alt="">
+            <div class="content">
+                <span>best offer</span>
+                <h3>upto 40% off</h3>
+                <a href="#" class="btn">see offer</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/offer-img2.webp" alt="">
+            <div class="content">
+                <span>only for today</span>
+                <h3>upto 80% off</h3>
+                <a href="#" class="btn">see offer</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<section class="services" id="services">
+
+    <h1 class="heading"> <i class="fas fa-paw"></i> our services <i class="fas fa-paw"></i> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="Grooming-3.jpg" alt="">
+            <div class="content">
+                <span>best offer</span>
+                <h3>upto 40% off</h3>
+                <a href="services.html" class="btn">see offer</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="boarding2.jpg" alt="">
+            <div class="content">
+                <span>best offer</span>
+                <h3>upto 40% off</h3>
+                <a href="services.html" class="btn">see offer</a>
+            </div>
+        </div>
+
+
+<!-- offer section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <i class="fas fa-paw"></i> contact us <i class="fas fa-paw"></i> </h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+        </div>
+
+        <div class="inputBox">
+            <input type="number" placeholder="number">
+            <input type="text" placeholder="subject">
+        </div>
+
+        <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+
+        <input type="submit" value="send message" class="btn">
+
+    </form>
+
+</section>
+
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+    About us 
+    <li><a href="https://maps.app.goo.gl/rgQARBeGvJZFEUFF7" target="_blank">Location</a></li> 
+    <li><a href="#" onclick="showPopup()">Read Refund Policy</a></li>
+<div id="popup" class="popup">
+
+    <h2>Refund Policy</h2>
+    <h2>PAW FRIENDS Refund Policy</h2>
+        <p><strong>Effective Date:</strong> 02/13/2024</p>
+        <p>Thank you for choosing PAW FRIENDS for your [product/service] needs. We strive to provide high-quality products/services and ensure customer satisfaction. Please read our refund policy carefully to understand your rights and responsibilities when requesting a refund.</p>
+
+        <h3>Refund Eligibility:</h3>
+        <ul>
+            <li>We offer refunds on [physical products/digital products/services] within [number of days] days of the purchase date.</li>
+            <li>To be eligible for a refund, your [product/service] must be unused, in the same condition that you received it, and in the original packaging.</li>
+        </ul>
+
+        <h3>Non-Refundable Items:</h3>
+        <p>Certain [physical products/digital products/services] are non-refundable. These include, but are not limited to, [specific items/services]. Please check the product/service description carefully before making a purchase.</p>
+
+        <h3>Refund Process:</h3>
+        <ul>
+            <li>To request a refund, please contact our customer support team at [customer support email] or [customer support phone number].</li>
+            <li>Provide your order number, the reason for the refund request, and any supporting documentation if applicable.</li>
+            <li>Our team will review your request and respond within [number of days] business days.</li>
+        </ul>
+
+        <h3>Refund Approval:</h3>
+        <ul>
+            <li>If your refund request is approved, we will initiate the refund process.</li>
+            <li>Refunds will be issued to the original payment method used for the purchase.</li>
+        </ul>
+
+        <h3>Late or Missing Refunds:</h3>
+        <ul>
+            <li>If you haven’t received a refund within [number of days] days after approval, please check your bank account first.</li>
+            <li>Contact your credit card company or bank, as processing times may vary.</li>
+            <li>If the issue persists, please contact our customer support team for assistance.</li>
+        </ul>
+
+        <h3>Exchanges:</h3>
+        <p>We do not offer exchanges. If you need a different [product/service], please place a new order and follow the refund process for the original order.</p>
+
+        <h3>Shipping Costs:</h3>
+        <p>Shipping costs are non-refundable. If you receive a refund, the cost of return shipping will be deducted from your refund.</p>
+
+        <h3>Changes to This Policy:</h3>
+        <p>We reserve the right to modify this refund policy at any time. Any changes will be effective immediately upon posting on our website.</p>
+
+        <p>By making a purchase with PAW FRIENDS], you acknowledge that you have read and agree to our refund policy.</p>
+
+        <p>If you have any questions or concerns regarding our refund policy, please contact us at [customer support email] or [customer support phone number].</p>
+
+        <p>Thank you for choosing PAW FRIENDS.</p>
+
+        <p>PAW FRIENDS<br>
+            Nagtahan St, Sampaloc, Manila, 1008 Metro Manila<br>
+           <a href="https://www.facebook.com/pawfriendswebsite/" target="_blank" class="btn" >
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/pawfriendswebsite/" target="_blank" class="btn">
+            <i class="fab fa-instagram"></i>
+        </a></p>
+<button class="close-btn" onclick="hidePopup()">Close</button>
+</div>
+<div id="overlay" class="overlay" onclick="hidePopup()"></div>
+
+
+
+    <li><a href="tab-2.html">Privacy Policy</a></li>
+    <li><a href="tab3.html"> Terms of Service</a></li>
+    <br>
+    <br>
+    <div class="share">
+        <a href="https://www.facebook.com/pawfriendswebsite/" target="_blank" class="btn" >
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/pawfriendswebsite/" target="_blank" class="btn">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div> 
+   
+    
+    <p class="footer-paragraph">&copy; 2024 Pet Store. All rights reserved.</p>
+
+</section>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+   $(document).ready(function(){
+
+$('#search-icon').click(function(){
+  $(this).toggleClass('fa-times');
+  $('#search-box').toggleClass('active');
+});
+
+$('#menu').click(function(){
+  $(this).toggleClass('fa-times');
+  $('.navbar').toggleClass('nav-toggle');
+});
+
+$(window).on('scroll load', function(){
+  $('#search-icon').removeClass('fa-times');
+  $('#search-box').removeClass('active');
+  $('#menu').removeClass('fa-times');
+  $('.navbar').removeClass('nav-toggle');
+
+  if($(window).scrollTop() > 0){
+    $('header').addClass('sticky');
+  } else {
+    $('header').removeClass('sticky');
+  }
+});
+
+$('a[href*="#"]').on('click', function(e){
+  e.preventDefault();
+
+  $('html, body').animate({
+    scrollTop: $($(this).attr('href')).offset().top,
+  }, 500, 'linear');
+});
+
+$('#search').on('input', function() {
+  const searchTerm = $(this).val().toLowerCase();
+  highlightMatches(searchTerm);
+});
+
+function highlightMatches(searchTerm) {
+  $('.box').each(function() {
+    const productTitle = $(this).find('h3');
+    const titleText = productTitle.text().toLowerCase();
+    const startIndex = titleText.indexOf(searchTerm);
+
+    
+
+    const isVisible = startIndex !== -1;
+    $(this).toggle(isVisible);
+  });
+}
+
+});
+     // Get references to all buttons
+    var buttons = document.querySelectorAll('button');
+
+    // Add click event listeners to each button
+    buttons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        // Get the target div id from the data-target attribute
+        var targetDivId = button.getAttribute('data-target');
+        
+        // Get the corresponding div
+        var targetDiv = document.getElementById(targetDivId);
+
+        // Toggle the display of the div
+        targetDiv.style.display = (targetDiv.style.display === 'none') ? 'block' : 'none';
+      });
+    });
+    
+    function toggleDivs() {
+        var divs = document.querySelectorAll('.hiddenDiv');}
+        divs.forEach(function(div) {
+            if (div.style.display === 'none') {
+                div.style.display = 'block';
+            } else {
+                div.style.display = 'none';
+            }
+        });
+
+    
+
+         
+    
+    
+   
+        document.addEventListener("DOMContentLoaded", function() {
+            const wrapper = document.querySelector('.wrapper');
+            const loginLink = document.querySelector('.login-link');
+            const registerLink = document.querySelector('.register-link');
+            const iconClose = document.querySelector('.icon-close');
+            const userIcon = document.getElementById('user-icon'); // Select the user icon
+    
+            // Function to toggle the visibility of the login/register form
+            function toggleLoginForm() {
+                wrapper.classList.add('active');
+                wrapper.querySelector('.form-box.register').style.display = 'none';
+                wrapper.querySelector('.form-box.login').style.display = 'block';
+            }
+    
+            userIcon.addEventListener('click', toggleLoginForm); // Add event listener to the user icon
+    
+            registerLink.addEventListener('click', () => {
+                // Add the class to show the register form
+                wrapper.classList.add('active');
+                wrapper.querySelector('.form-box.register').style.display = 'block';
+                wrapper.querySelector('.form-box.login').style.display = 'none';
+            });
+    
+            loginLink.addEventListener('click', () => {
+                // Remove the class to show the login form
+                wrapper.classList.remove('active');
+                wrapper.querySelector('.form-box.register').style.display = 'none';
+                wrapper.querySelector('.form-box.login').style.display = 'block';
+            });
+    
+            iconClose.addEventListener('click', () => {
+                // Remove the classes to hide both forms
+                wrapper.classList.remove('active');
+                wrapper.querySelector('.form-box.register').style.display = 'none';
+                wrapper.querySelector('.form-box.login').style.display = 'block';
+            });
+        });
+function showPopup() {
+    document.getElementById("popup").style.display = "block";
+    document.getElementById("overlay").style.display = "block";
+document.body.style.overflow = 'hidden';
+}
+
+function hidePopup() {
+    document.getElementById("popup").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
+    document.body.style.overflow = 'auto'; // Enable scrolling of the main content
+}
+    </script>
+    
+    
+
+
+  
+
+</body>
+</html>
